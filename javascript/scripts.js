@@ -1,10 +1,9 @@
 // richiesta nome
-var name= parseInt(prompt("Inserisci il tuo nome:"));
+var name= (prompt("Inserisci il tuo nome:"));
 // richiesta cognome
-var surname= parseInt(prompt("Inserisci il tuo cognome:"));
+var surname= (prompt("Inserisci il tuo cognome:"));
 // richiesta colore preferito
-var color= parseInt(prompt("Inserisci il tuo colore preferito:"));
+var color= (prompt("Inserisci il tuo colore preferito:"));
 // inserimento dei valori ottenuti in un unica variabile
-var password = name + surname + color + "40";
-console.log(password);
+var passwordGenerated = name + surname + color + "40";
 // inserimento contenuto della variabile contenente tutto all'interno del contenuto del tag html
