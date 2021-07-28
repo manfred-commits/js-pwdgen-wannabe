@@ -12,5 +12,3 @@ document.getElementById("password").innerHTML += passwordGenerated;
 document.getElementById("password").style.fontFamily = "Gowun Batang, serif";
 // colore contenuto di testo password
 document.getElementById("password").style.color = "gold";
-// impostazione dimensione testo del contenuto
-document.getElementById("password").style.fontSize = "xx-large";
