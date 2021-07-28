@@ -7,3 +7,4 @@ var color= (prompt("Inserisci il tuo colore preferito:"));
 // inserimento dei valori ottenuti in un unica variabile
 var passwordGenerated = name + surname + color + "40";
 // inserimento contenuto della variabile contenente tutto all'interno del contenuto del tag html
+document.getElementById("password").innerHTML += passwordGenerated;
