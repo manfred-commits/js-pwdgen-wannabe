@@ -8,3 +8,9 @@ var color= prompt("Inserisci il tuo colore preferito:");
 var passwordGenerated = nome + surname + color + "40";
 // inserimento contenuto della variabile contenente tutto all'interno del contenuto del tag html
 document.getElementById("password").innerHTML += passwordGenerated;
+// stilizzazione font family contenuto
+document.getElementById("password").style.fontFamily = "Gowun Batang, serif";
+// colore contenuto di testo password
+document.getElementById("password").style.color = "gold";
+// impostazione dimensione testo del contenuto
+document.getElementById("password").style.fontSize = "xx-large";
